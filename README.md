@@ -57,7 +57,7 @@ We release three datasets:
 To train the 256x256 generator on dataset (1) or (2), please run this:
 
 ```
-python train.py --outdir=debug2/new_256 --data=../Dataset/2k_data_20221228 --gpus=8 --aug=noaug --batch 64 --deco_mlp 2 --d_res 256 --use_ray --no_cond_map --cdir_d=1 --load_real
+python train.py --outdir=$out_path --data=$data_path --gpus=8 --aug=noaug --batch 64 --deco_mlp 2 --d_res 256 --use_ray --no_cond_map --cdir_d=1 --load_real
 
 ```
 
