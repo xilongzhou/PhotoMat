@@ -34,9 +34,11 @@ for car paint sampling, please run this:
 
 ```
 
-python material_sampler.py --network=$G_path --outdir=$out_path --matunet=$MatUnet_path --reload_modules=True --gpus=1 --out_nc=11 --seeds=10-50 --carpaint
+python material_sampler.py --network=$G_path --outdir=$out_path --matunet=$MatUnet_path --reload_modules=True --gpus=1 --out_nc=11 --seeds=10-50 --carpaint=True
 
 ```
+
+In the output folder, for each sample, we save relit materials of neural generation and analytic renderings under five different lightings, and the generated material maps.
 
 
 ## Dataset 
