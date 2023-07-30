@@ -2,7 +2,7 @@
 
 This is code of "PhotoMat: A Material Generator Learned from Single Flash Photos" [Project](https://people.engr.tamu.edu/nimak/Papers/SIGGRAPH2023_PhotoMat/index.html) | [Paper](https://people.engr.tamu.edu/nimak/Papers/SIGGRAPH2023_PhotoMat/final_paper.pdf)
 
-<img src='img/teaser.jpg'>
+<img src='img/representation.jpg'>
 
 ## Requirements
 
@@ -48,7 +48,7 @@ We release three datasets:
 
 ## Training
 
-# first stage training
+### First stage training
 
 To train the 256x256 generator on dataset (1) or (2), please run this:
 
@@ -67,7 +67,7 @@ Where `$data_path` is training set path, `$out_path` is output path, `$res` cont
 
 
 
-# second stage training
+### Second stage training
 
 We first run below script with `--force_shift=False` then finetune maps esimator with `--force_shift=True`
 
