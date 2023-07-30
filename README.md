@@ -42,9 +42,13 @@ python material_sampler.py --network=$G_path --outdir=$out_path --matunet=$MatUn
 ## Dataset 
 
 We release three datasets:
+
 (1). A 2.5k 512x512 glossy dataset [link](), where the highlight is roughly centered for each example
+
 (2). A small 512x512 car paint dataset [link]()
+
 (3). 12k 2kx2k "in-the-wild" dataset [link](), where the json file contains the estimated position of each example
+
 
 ## Training
 
