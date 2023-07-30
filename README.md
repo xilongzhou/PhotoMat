@@ -1,4 +1,4 @@
-# PhotoMat: A Material Generator Learned from Single Flash Photos
+# PhotoMat: A Material Generator Learned from Single Flash Photos (Siggraph 2023)
 
 This is code of "PhotoMat: A Material Generator Learned from Single Flash Photos" [Project](https://people.engr.tamu.edu/nimak/Papers/SIGGRAPH2023_PhotoMat/index.html) | [Paper](https://people.engr.tamu.edu/nimak/Papers/SIGGRAPH2023_PhotoMat/final_paper.pdf)
 
