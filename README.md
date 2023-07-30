@@ -82,8 +82,6 @@ python material_trainer.py --network=$G_path --outdir=$out_path --reload_modules
 Where `$li_range` control the sampled light range (default: 0.5), `--force_shift` shift materials during training every iterations
 
 
-
-```
 ## Citation
 
 If you find this work useful for your research, please cite:
