@@ -78,10 +78,10 @@ Where `$data_path` is training set path, `$out_path` is output path, `$res` cont
 We first run below script with `--force_shift=False` then finetune maps esimator with `--force_shift=True`
 
 ```
-python material_trainer.py --network=$G_path --outdir=$out_path --reload_modules=True --gpus=1 --batch=4 --out_nc=8 --w_td=1 --w_dl1=0.1 --lr=1e-4 --light_type=pt --size=2 --li_range=0.5 --force_shift=True
+python material_trainer.py --network=$G_path --outdir=$out_path --reload_modules=True --gpus=1 --batch=4 --out_nc=8 --w_td=1 --w_dl1=0.1 --lr=1e-4 --light_type=pt --size=2 --li_range=0.5 --force_shift=True --car_paint=False
 
 ```
-Where `$li_range` control the sampled light range (default: 0.5), `--force_shift` shift materials during training every iterations
+Where `$li_range` control the sampled light range (default: 0.5), `--force_shift` shift materials during training every iterations, `--car_paint` is for carpaint model only.
 
 
 ## Citation
