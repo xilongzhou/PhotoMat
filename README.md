@@ -16,7 +16,7 @@ conda env create -f env.yml
 
 Please download pretrained model of from this [link](https://drive.google.com/file/d/1ji3y5GJEQpJLAJbxPdyJpSMPD4M2yhny/view?usp=sharing).
 
-Inside the `model` folder, `G_#` is the generator, `MatUnet_#` is the maps estimator of `#`, which include 256x256, 512x512, 1kx1k and car models.
+Inside the `model` folder, `G_#` is the generator, `MatUnet_#` is the maps estimator of `#`, which include the pretrained network of 256x256, 512x512, 1kx1k and carpaint
 
 For sampling 256x256, 512x512, 1kx1k materials, please run this:
 
