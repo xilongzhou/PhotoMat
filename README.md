@@ -6,7 +6,9 @@ This is code of "PhotoMat: A Material Generator Learned from Single Flash Photos
 
 ## Requirements
 
-set up environments, please run below (tesed in Linux):
+The StyleGAN part of the project is based on [stylegan2-ada](https://github.com/NVlabs/stylegan2-ada).
+
+To set up environments, please run below (tesed in Linux):
 
 ```
 conda env create -f env.yml
