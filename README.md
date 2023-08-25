@@ -105,8 +105,3 @@ If you find this work useful for your research, please cite:
 
 Please contact Xilong Zhou (1992zhouxilong@gmail.com) if there are any issues/comments/questions.
 
-## License
-
-Copyright (c) 2023, Xilong Zhou. 
-
-All rights reserved.
