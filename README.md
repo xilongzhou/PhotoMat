@@ -47,9 +47,9 @@ In the output folder, for each sample, we save relit materials of neural generat
 
 We release three datasets:
 
-(1). A 2.5k 512x512 glossy dataset [link](), where the highlight is roughly centered for each example
+(1). A 2.5k 512x512 glossy dataset [link](https://drive.google.com/file/d/1_htpTTaV3mNwE_6bOX7epvYqztSH8Gsw/view?usp=drive_link), where the highlight is roughly centered for each example
 
-(2). A small 512x512 car paint dataset [link]()
+(2). A small 512x512 car paint dataset [link](https://drive.google.com/file/d/10dkp5DaSjmIxSbj7Y5UFkwwRh88oa02R/view?usp=drive_link)
 
 (3). 12k 2kx2k "in-the-wild" dataset [link](), where the json file contains the estimated position of each example
 
